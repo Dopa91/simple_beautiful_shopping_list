@@ -10,6 +10,10 @@ void main() {
     Product("Tee", 12.99),
     Product("Lego", 649.99)
   ];
+// // for (int index = 0; index < products.length; index++) {
+// //     Product current = products[index];
+// //     print(current);
+//   }
 
   runApp(MainApp(products: products));
 }
