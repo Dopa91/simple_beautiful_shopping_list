@@ -8,7 +8,11 @@ void main() {
     Product("Apfel", 7.99),
     Product("Wassermelone", 34.99),
     Product("Tee", 12.99),
-    Product("Lego", 649.99)
+    Product("Lego", 649.99),
+    Product("Eier", 4.90),
+    Product("Erdbeeren", 15.13),
+    Product("NussNougat Croissant", 3.99),
+    Product("Wassereis", 13.90)
   ];
 // // for (int index = 0; index < products.length; index++) {
 // //     Product current = products[index];
