@@ -13,6 +13,9 @@ class BuilderListViewListContent extends StatelessWidget {
       itemBuilder: (BuildContext context, int index) {
         //Product current = products[index];
 
+        // return ListTile kann durch "return ListEntry(product: products[index]);"
+        // ersetzt werden. Bzw. einer class für die Darstellung.
+
         return ListTile(
           title: Text(products[index].name),
           leading: const Icon(Icons.shopping_cart),
